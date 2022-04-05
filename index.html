@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bolt fleet</title>
+    <link rel="shortcut icon" href="Bolt.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo-wrapper">
+        <img src="bolt-food.png" height="70px" />
+      </div>
+      <div class="header-panel">
+        <h1 class="tittle">Panel administracyjny</h1>
+        <p class="tittle-2">
+          Tutaj mozesz zobaczyc zestawienie twoich kierowcow i pojazdow
+        </p>
+      </div>
+    </header>
+    <div class="app-wrapper">
+      <nav class="navigation-panell">
+        <ul style="list-style: none">
+          <li class="navigation-panel__item navigation-panel__item_active">
+            <a href="#"> Panel administracyjny </a>
+          </li>
+        </ul>
+        <div>
+          <h2 class="text__list">ZLECENIA</h2>
+          <ul style="list-style: none">
+            <li><a href="#">Historia zlecen</a></li>
+            <li><a href="#">Live map</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text__list">FLOTA</h2>
+          <ul style="list-style: none">
+            <li><a href="#">Kierowcy</a></li>
+            <li><a href="#">Samochody</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text__list">RAPORTY</h2>
+          <ul style="list-style: none">
+            <li><a href="#">Tygodniowe raporty</a></li>
+            <li><a href="#">Dzienne raporty</a></li>
+            <li><a href="#">Wyplaty</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text__list">FAKTURY</h2>
+          <ul style="list-style: none">
+            <li><a href="#">Faktury za przejazdy</a></li>
+            <li><a href="#">Faktury bolt</a></li>
+            <li><a href="#">Faktury bonusowe</a></li>
+            <li><a href="#">Pliki do pobrania</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text__list">PROFIL</h2>
+          <ul style="list-style: none">
+            <li><a href="#">Moj profil</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text__list">OPCJE</h2>
+          <ul style="list-style: none">
+            <li><a href="#">Wyloguj sie</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div>
+        <h2 class="drivers-header">Kierowcy</h2>
+
+        <table class="drivers-table">
+          <tr>
+            <th>Imie i nazwisko</th>
+            <th>Status</th>
+            <th>Platnosc gotowka</th>
+          </tr>
+
+          <tr>
+            <td>Bogdan oczko</td>
+            <td><div class="status">Aktywny</div></td>
+            <td><div class="status">Wlaczone</div></td>
+          </tr>
+        </table>
+      </div>
+
+      <div>
+        <h2 class="cars-header">Samochody</h2>
+
+        <table class="cars-table">
+          <tr>
+            <th>Marka i model</th>
+            <th>Status</th>
+          </tr>
+          <tr>
+            <td>Honda Civic</td>
+            <td>Aktywny</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
